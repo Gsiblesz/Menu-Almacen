@@ -193,6 +193,17 @@ main {
   border-color: rgba(111, 97, 255, 0.45);
 }
 
+.page-footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+  padding-bottom: 1rem;
+}
+
+.page-footer p {
+  opacity: 0.85;
+}
+
 @media (max-width: 640px) {
   body {
     padding: 1.5rem 0;
